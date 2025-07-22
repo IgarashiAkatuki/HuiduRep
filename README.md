@@ -1,2 +1,2 @@
-# CMAES
-CMAE-Spike
+# HuiduRep
+Representation Learning Framework for Extracellular Recordings
