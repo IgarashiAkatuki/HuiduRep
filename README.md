@@ -6,13 +6,13 @@ This is Huidu, our ragdoll cat! ❤
 
 # Cite
 ```
-@misc{feng2024cnmbertmodelhanyupinyin,
-      title={CNMBert: A Model For Hanyu Pinyin Abbreviation to Character Conversion Task}, 
-      author={Zishuo Feng and Feng Cao},
-      year={2024},
-      eprint={2411.11770},
+@misc{cao2025huidureprobustselfsupervisedframework,
+      title={HuiduRep: A Robust Self-Supervised Framework for Learning Neural Representations from Extracellular Spikes}, 
+      author={Feng Cao and Zishuo Feng},
+      year={2025},
+      eprint={2507.17224},
       archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2411.11770}, 
+      primaryClass={eess.SP},
+      url={https://arxiv.org/abs/2507.17224}, 
 }
 ```
