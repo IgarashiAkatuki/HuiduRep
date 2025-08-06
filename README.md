@@ -28,8 +28,8 @@ or
 
 ```
 @misc{cao2025huidureprobustselfsupervisedframework,
-      title={HuiduRep: A Robust Self-Supervised Framework for Learning Neural Representations from Extracellular Spikes}, 
-      author={Feng Cao and Zishuo Feng},
+      title={HuiduRep: A Robust Self-Supervised Framework for Learning Neural Representations from Extracellular Recordings}, 
+      author={Feng Cao and Zishuo Feng and Wei Shi and Jicong Zhang},
       year={2025},
       eprint={2507.17224},
       archivePrefix={arXiv},
