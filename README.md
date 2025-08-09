@@ -1,5 +1,5 @@
 # HuiduRep
-Representation Learning Framework for Extracellular Recordings
+HuiduRep: A Robust Self-Supervised Framework for Learning Neural Representations from Extracellular Recordings
 
 This is Huidu, our ragdoll cat! ❤
 ![E519ED435DB70E9EEB1085CFFF7B8EB6](https://github.com/user-attachments/assets/9ee3624a-e004-4af5-a8e4-e520340fe7e3)
