@@ -5,8 +5,54 @@ This is Huidu, our ragdoll cat! ❤
 ![E519ED435DB70E9EEB1085CFFF7B8EB6](https://github.com/user-attachments/assets/9ee3624a-e004-4af5-a8e4-e520340fe7e3)
 
 # Overall Architecture
-![Spike Identification Workflow Using Transformer Encoding](https://github.com/user-attachments/assets/f10c9931-fd89-4fc4-bbc8-e7574c24870b)
+<img width="8800" height="4643" alt="image" src="https://github.com/user-attachments/assets/6629a288-054d-4359-a0f6-34890ba4a2a4" />
 
+```
+.
+│   README.md
+│   train.ipynb
+│   validate.ipynb
+│
+├───model
+│       CMAES.py
+│       FeatureDecoder.py
+│       FeatureEncoder.py
+│       Prediction.py
+│       ProjectionHead.py
+│
+├───resources
+│   └───checkpoint
+│           HuiduRep.pt
+│
+├───train
+│       CMAES_trainer.py
+│       spike_dataset.py
+│
+└───utils
+        CMAES_utils.py
+        monitor_utils.py
+        scheduler_utils.py
+        spike_augment.py
+        test_utils.py
+        spikeforest_utils.py
+```
+- **train.ipynb**: overall training code of HuiduRep.
+- **validate.ipynb**: overall validation code of HuiduRep.
+- **model**
+  - **CMAES.py**: Model definition of Huiduirep.
+- **resources**
+  - **HuiduRep.pt**: Weights of HuiduRep with $\alpha = 0.2$ and representation dim  $=32$.
+- **train**
+  - **CMAES_trainer.py**: Define the trainer function for HuiduRep, including the optimiser, learning rate scheduler and other hyperparameters.
+  - **spike_dataset.py**: Define the dataset loader used during training, including the use of view augmentation strategies.
+- **utils**
+  - **CMAES_utils.py**: Contains the `load_model` function to load HuiduRep from its HuiduRep.pt.
+  - **monitor_utils.py**: Contains a series of monitor functions with different cluster methods like GMM, Kmeans, HDBSCAN to monitor the effect of model along with evaluate the performance of HuiduRep.
+  - **scheduler_utils.py**: Define some learning rate schedulers like `WarmupCosineLR`.
+  - **spike_augment.py**: Define whole view augmentation strategies announced in our paper, include jitter, noise, crop, and collision.
+  - **test_utils.py**: Define the utils for testing the performance of HuiduRep.
+  - **spikeforest_utils.py**: Define the noticed preprocessing steps in the supplementary material as well as the threshold based spike detection method used in the HuiduRep Pipeline.
+    
 # Cite
 ```
 @article {Cao2025.07.22.666242,
