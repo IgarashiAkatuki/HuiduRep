@@ -4,6 +4,9 @@ HuiduRep: A Robust Self-Supervised Framework for Learning Neural Representations
 This is Huidu, our ragdoll cat! ❤
 ![E519ED435DB70E9EEB1085CFFF7B8EB6](https://github.com/user-attachments/assets/9ee3624a-e004-4af5-a8e4-e520340fe7e3)
 
+# Abstract
+Extracellular recordings are transient voltage fluctuations in the vicinity of neurons, serving as a fundamental modality in neuroscience for decoding brain activity at single-neuron resolution. Spike sorting, the process of attributing each detected spike to its corresponding neuron, is a pivotal step in brain sensing pipelines. However, it remains challenging under low signal-to-noise ratio (SNR), electrode drift, and cross-session variability. In this paper, we propose \textbf{HuiduRep}, a robust self-supervised representation learning framework that extracts discriminative and generalizable features from extracellular recordings. By integrating contrastive learning with a denoising autoencoder, HuiduRep learns latent representations robust to noise and drift. With HuiduRep, we develop a spike sorting pipeline that clusters spike representations without ground truth labels. Experiments on hybrid and real-world datasets demonstrate that HuiduRep achieves strong robustness. Furthermore, the pipeline outperforms state-of-the-art tools such as kiloSort4 and MountainSort5. These findings demonstrate the potential of self-supervised spike representation learning as a foundational tool for robust and generalizable processing of extracellular recordings.
+
 # Overall Architecture
 <img width="8800" height="4643" alt="image" src="https://github.com/user-attachments/assets/6629a288-054d-4359-a0f6-34890ba4a2a4" />
 
