@@ -2,6 +2,7 @@
 Repository of AAAI 2026 paper: HuiduRep: A Robust Self-Supervised Framework for Learning Neural Representations from Extracellular Recordings.
 
 This paper is also accepted by NeurIPS 2025 Workshop: Foundation Models for the Brain and Body.
+![AAAI-Poster](https://github.com/user-attachments/assets/d69793b7-4817-48a6-b007-46ebe48cd1f4)
 
 This is Huidu, our ragdoll cat! ❤
 ![E519ED435DB70E9EEB1085CFFF7B8EB6](https://github.com/user-attachments/assets/9ee3624a-e004-4af5-a8e4-e520340fe7e3)
